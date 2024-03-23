@@ -49,7 +49,7 @@ while running:
                     screen.fill(color)
                     screen.blit(target, (target_x, target_y))
                     pygame.display.update()
-                    clock.tick(120)  # Ускоренное "падение"
+                    clock.tick(300)  # Ускоренное "падение"
 
                 # Сброс таргета на новую случайную позицию после "падения"
                 target_x = random.randint(0, SCREEN_WIDTH - target_width)
