@@ -10,7 +10,7 @@ pygame.display.set_caption("Игра Тир")
 icon = pygame.image.load("/Users/elizarov09/Documents/GitHub/OG03/img/tir_icon.png")
 pygame.display.set_icon(icon)
 
-target = pygame.image.load("img/target.png")
+target = pygame.image.load("/Users/elizarov09/Documents/GitHub/OG03/img/target.png")
 target_width = 118
 target_height = 118
 
